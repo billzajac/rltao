@@ -3,8 +3,8 @@ package rltao
 
 type Passage struct {
 	// id int // will be stored as a slice, so using index as id
-	title string
-	body  string
+	Title string
+	Body  string
 }
 
 func GetPassage(id int) Passage {
@@ -12,8 +12,8 @@ func GetPassage(id int) Passage {
 
 	// passages[0] is unused to match id to index
 
-	passages[1].title = "The Beginning of Power"
-	passages[1].body = `The Tao that can be expressed<br>
+	passages[1].Title = "The Beginning of Power"
+	passages[1].Body = `The Tao that can be expressed<br>
 	Is not the Tao of the Absolute.<br>
 	The name that can be named<br>
 	Is not the name of the Absolute.<br>
@@ -32,8 +32,8 @@ func GetPassage(id int) Passage {
 	Profound and mysterious,<br>
 	The gateway to the Collective Subtlety.`
 
-	passages[2].title = "Using Polarity"
-	passages[2].body = `When all the world knows beauty as beauty,<br>
+	passages[2].Title = "Using Polarity"
+	passages[2].Body = `When all the world knows beauty as beauty,<br>
 	There is ugliness.<br>
 	When they know good as good,<br>
 	Then there is evil.<br>
@@ -55,8 +55,8 @@ func GetPassage(id int) Passage {
 	<br>
 	Since, indeed, they take no credit, it remains with them.`
 
-	passages[3].title = "Keeping Peace"
-	passages[3].body = `And people will not contend.<br>
+	passages[3].Title = "Keeping Peace"
+	passages[3].Body = `And people will not contend.<br>
 	Do not trasure goods that are hard to get,<br>
 	And people will not become thieves.<br>
 	Do not focus on desires,<br>
@@ -73,8 +73,8 @@ func GetPassage(id int) Passage {
 	Act without action,<br>
 	And nothing is without order.`
 
-	passages[4].title = "The Nature of the Tao"
-	passages[4].body = `The Tao is empty and yet useful;<br>
+	passages[4].Title = "The Nature of the Tao"
+	passages[4].Body = `The Tao is empty and yet useful;<br>
 	Somehow it never fills up.<br>
 	So profound!<br>
 	It resembles the source of All Things.<br>
@@ -89,8 +89,8 @@ func GetPassage(id int) Passage {
 	I do not know whose offspring it is,<br>
 	This Image in front of the source.`
 
-	passages[5].title = "Holding to the Center"
-	passages[5].body = `Heaven and Earth are impartial;<br>
+	passages[5].Title = "Holding to the Center"
+	passages[5].Body = `Heaven and Earth are impartial;<br>
 	They regard All Things as straw dogs.<br>
 	Evolved Individuals are impartial;<br>
 	They regard all people as straw dogs.<br>
@@ -105,8 +105,8 @@ func GetPassage(id int) Passage {
 	Too much talk will exhaust itself.<br>
 	It is better to remain centered.`
 
-	passages[6].title = "Perceiving the Subtle"
-	passages[6].body = `The mystery of the valley is immortal;<br>
+	passages[6].Title = "Perceiving the Subtle"
+	passages[6].Body = `The mystery of the valley is immortal;<br>
 	It is known as the Subtle Female.<br>
 	The gateway of the Subtle Female<br>
 	Is the source of Heaven and Earth.<br>
@@ -114,8 +114,8 @@ func GetPassage(id int) Passage {
 	Everlasting, endless, it appears to exist.<br>
 	Its usefulness comes with no effort.`
 
-	passages[7].title = "The Power of Selflessness"
-	passages[7].body = `Heaven is eternal., the Earth everlasing.<br>
+	passages[7].Title = "The Power of Selflessness"
+	passages[7].Body = `Heaven is eternal., the Earth everlasing.<br>
 	They can be eternal and everlasting<br>
 	Because they do not exist for themselves.<br>
 	For that reason they can exist eternally.<br>
@@ -129,8 +129,8 @@ func GetPassage(id int) Passage {
 	Is it not because they are without self-interest<br>
 	That their interests succeed?`
 
-	passages[8].title = "Noncompetitive Values"
-	passages[8].body = `The highest value is like water.<br>
+	passages[8].Title = "Noncompetitive Values"
+	passages[8].Body = `The highest value is like water.<br>
 	<br>
 	The value in water benefits All Things,<br>
 	And yet it does not contend.<br>
@@ -148,8 +148,8 @@ func GetPassage(id int) Passage {
 	Since, indeed, they do not contend,<br>
 	There is no resentment.`
 
-	passages[9].title = "Transcending Decline"
-	passages[9].body = `Holding to fullness<br>
+	passages[9].Title = "Transcending Decline"
+	passages[9].Body = `Holding to fullness<br>
 	Is not as good as stopping in time.<br>
 	<br>
 	Sharpness that probes<br>
@@ -164,8 +164,8 @@ func GetPassage(id int) Passage {
 	Withdrawing when success is achieved<br>
 	Is the Tao in Nature.`
 
-	passages[10].title = "Inner Harmony"
-	passages[10].body = `In managing your instincts and embracing Oneness,<br>
+	passages[10].Title = "Inner Harmony"
+	passages[10].Body = `In managing your instincts and embracing Oneness,<br>
 	Can you be undivided?<br>
 	In focusing your Influence,<br>
 	Can you yield as a newborn child?<br>
@@ -184,8 +184,8 @@ func GetPassage(id int) Passage {
 	Advance without dominating.<br>
 	These are called the Subtle Powers.`
 
-	passages[11].title = "Using What Is Not"
-	passages[11].body = `Thirty spokes converge at one hub;<br>
+	passages[11].Title = "Using What Is Not"
+	passages[11].Body = `Thirty spokes converge at one hub;<br>
 	What is not there makes the wheel useful.<br>
 	Clay is shaped to form a vessel;<br>
 	What is not there makes the vessel useful.<br>
@@ -195,8 +195,8 @@ func GetPassage(id int) Passage {
 	Therefore, take advantage of what is there,<br>
 	By making use of what is not.`
 
-	passages[12].title = "Controlling the Senses"
-	passages[12].body = `The five colors will blind one's eye.<br>
+	passages[12].Title = "Controlling the Senses"
+	passages[12].Body = `The five colors will blind one's eye.<br>
 	The five tones will deafen one's ear.<br>
 	The five flavors will jade one's taste.<br>
 	<br>
@@ -207,8 +207,8 @@ func GetPassage(id int) Passage {
 	Regard the center and not the eye.<br>
 	Hence they discard one and receive the other.`
 
-	passages[13].title = "Expanding Identification"
-	passages[13].body = `There is alarm in both favor and disgrace.<br>
+	passages[13].Title = "Expanding Identification"
+	passages[13].Body = `There is alarm in both favor and disgrace.<br>
 	Esteem and fear are identified with the self.<br>
 	<br>
 	What is the meaning of "alarm in both favor and disgrace?"<br>
@@ -228,8 +228,8 @@ func GetPassage(id int) Passage {
 	Those who love the world as self<br>
 	Will be entrusted with the world.`
 
-	passages[14].title = "The Essence of Tao"
-	passages[14].body = `Looked at but not seen:<br>
+	passages[14].Title = "The Essence of Tao"
+	passages[14].Body = `Looked at but not seen:<br>
 	Its name is formless.<br>
 	Listened to but not heard:<br>
 	Its name is soundless.<br>
@@ -256,8 +256,8 @@ func GetPassage(id int) Passage {
 	Be aware of the ancient origins;<br>
 	This is called the Essence of Tao.`
 
-	passages[15].title = "The Power in Subtle Force"
-	passages[15].body = `Those skillful in the ancient Tao<br>
+	passages[15].Title = "The Power in Subtle Force"
+	passages[15].Body = `Those skillful in the ancient Tao<br>
 	Are subtly ingenious and profoundly intuitive.<br>
 	They are so deep they cannot be recognized.<br>
 	Since, indeed, they cannot be recognized,<br>
@@ -288,8 +288,8 @@ func GetPassage(id int) Passage {
 	Indeed, since they are not full,<br>
 	They can be used up and also renewed.`
 
-	passages[16].title = "Knowing the Absolute"
-	passages[16].body = `Attain the highest openness;<br>
+	passages[16].Title = "Knowing the Absolute"
+	passages[16].Body = `Attain the highest openness;<br>
 	Maintain the deepest harmony.<br>
 	Become a part of All Things;<br>
 	In this way, I perceive the cycles.<br>
@@ -313,8 +313,8 @@ func GetPassage(id int) Passage {
 	What has Tao becomes everlasting<br>
 	And free from harm throughout life.`
 
-	passages[17].title = "The Way of Subtle Influence"
-	passages[17].body = `Superior leaders are those whose existence is merely known;<br>
+	passages[17].Title = "The Way of Subtle Influence"
+	passages[17].Body = `Superior leaders are those whose existence is merely known;<br>
 	The next best are loved and honored;<br>
 	The next are respected;<br>
 	And the next are ridiculed.<br>
@@ -325,8 +325,8 @@ func GetPassage(id int) Passage {
 	And the work is done, the goal achieved,<br>
 	The people say, "We did it naturally."`
 
-	passages[18].title = "Losing the Instincts"
-	passages[18].body = `When the great Tao is forgotten,<br>
+	passages[18].Title = "Losing the Instincts"
+	passages[18].Body = `When the great Tao is forgotten,<br>
 	Philanthropy and morality appear.<br>
 	Intelligent strategies are produced,<br>
 	And great hypocrisies emerge.<br>
@@ -336,8 +336,8 @@ func GetPassage(id int) Passage {
 	The nation is confused by chaos,<br>
 	And loyal patriots emerge.`
 
-	passages[19].title = "Return to Simplicity"
-	passages[19].body = `Discard the sacred, abandon strategies;<br>
+	passages[19].Title = "Return to Simplicity"
+	passages[19].Body = `Discard the sacred, abandon strategies;<br>
 	The people will benefit a hundredfold.<br>
 	Discard philanthropy, abandon morality;<br>
 	The people will return to natural love.<br>
@@ -351,8 +351,8 @@ func GetPassage(id int) Passage {
 	Reduce self-interest;<br>
 	Limit desires.`
 
-	passages[20].title = "Developing Independence"
-	passages[20].body = `Discard the academic; have no anxiety.<br>
+	passages[20].Title = "Developing Independence"
+	passages[20].Body = `Discard the academic; have no anxiety.<br>
 	How much difference is there between agrement and servility?<br>
 	How much difference is there between good and evil?<br>
 	That one should revere what others revere - how absurd and uncentered!<br>
@@ -380,8 +380,8 @@ func GetPassage(id int) Passage {
 	I alone am different from the others<br>
 	In treasuring nourishment from the Mother.`
 
-	passages[21].title = "Knowing the Collective Origin"
-	passages[21].body = `The natural expression of Power<br>
+	passages[21].Title = "Knowing the Collective Origin"
+	passages[21].Body = `The natural expression of Power<br>
 	Proceeds only through the Tao.<br>
 	The Tao acts through Natural Law;<br>
 	So formless, so intangible.<br>
@@ -402,8 +402,8 @@ func GetPassage(id int) Passage {
 	How do I know the way of the Collective Origin?<br>
 	Through this.`
 
-	passages[22].title = "Following the Pattern"
-	passages[22].body = `What is curved becomes whole;<br>
+	passages[22].Title = "Following the Pattern"
+	passages[22].Body = `What is curved becomes whole;<br>
 	What is crooked becomes straight.<br>
 	What is deep becomes filled;<br>
 	What is exhausted becomes refreshed.<br>
@@ -430,8 +430,8 @@ func GetPassage(id int) Passage {
 	To become whole,<br>
 	Turn within.`
 
-	passages[23].title = "The Steady Force of Attitude"
-	passages[23].body = `Nature rarely speaks.<br>
+	passages[23].Title = "The Steady Force of Attitude"
+	passages[23].Body = `Nature rarely speaks.<br>
 	Hence the whirlwind does not last a whole morning,<br>
 	Nor the sudden rainstorm last a whole day.<br>
 	What causes these?<br>
@@ -456,8 +456,8 @@ func GetPassage(id int) Passage {
 	Those who lack belief<br>
 	Will not in turn be believed.`
 
-	passages[24].title = "Nature rarely speaks"
-	passages[24].body = `Those who are on tiptoe cannot stand firm.<br>
+	passages[24].Title = "Nature rarely speaks"
+	passages[24].Body = `Those who are on tiptoe cannot stand firm.<br>
 	Those who straddle cannot walk.<br>
 	Those who display themselves cannot illuminate.<br>
 	Those who define themselves cannot be distinguished.<br>
@@ -469,8 +469,8 @@ func GetPassage(id int) Passage {
 	And are contrary to Natural Law.<br>
 	Thus those who possess the Tao turn away.`
 
-	passages[25].title = "The Tao of Greatness"
-	passages[25].body = `There was something in a state of fusion<br>
+	passages[25].Title = "The Tao of Greatness"
+	passages[25].Body = `There was something in a state of fusion<br>
 	Before Heaven and Earth were born.<br>
 	<br>
 	Silent, vast,<br>
@@ -497,8 +497,8 @@ func GetPassage(id int) Passage {
 	Heaven is modeled on the Tao.<br>
 	The Tao is modeled on nature.`
 
-	passages[26].title = "The Gravity of Power"
-	passages[26].body = `Gravity is the foundation of levity.<br>
+	passages[26].Title = "The Gravity of Power"
+	passages[26].Body = `Gravity is the foundation of levity.<br>
 	Stillness is the master of agitation.<br>
 	<br>
 	Thus Evolved Individuals can travel the whole day<br>
@@ -511,8 +511,8 @@ func GetPassage(id int) Passage {
 	If they are light-hearted, they lose their foundation.<br>
 	If they are agitated, they lose their mastery.`
 
-	passages[27].title = "The Skillful Exchange of Information"
-	passages[27].body = `A good path has no ruts.<br>
+	passages[27].Title = "The Skillful Exchange of Information"
+	passages[27].Body = `A good path has no ruts.<br>
 	A good speech has no flaws.<br>
 	A good analysis uses no schemes.<br>
 	<br>
@@ -535,8 +535,8 @@ func GetPassage(id int) Passage {
 	<br>
 	This is called Significant Subtlety.`
 
-	passages[28].title = "Uniting the Forces"
-	passages[28].body = `Know the male,<br>
+	passages[28].Title = "Uniting the Forces"
+	passages[28].Body = `Know the male,<br>
 	Hold the female;<br>
 	Become the world's stream.<br>
 	By being the world's streawm,<br>
@@ -563,8 +563,8 @@ func GetPassage(id int) Passage {
 	Are made into leaders.<br>
 	In this way the Great System is united.`
 
-	passages[29].title = "The Way of Noninterference"
-	passages[29].body = `Those who would take hold of the world and act on it,<br>
+	passages[29].Title = "The Way of Noninterference"
+	passages[29].Body = `Those who would take hold of the world and act on it,<br>
 	Never, I notice, succeed.<br>
 	<br>
 	The world is a mysterious instrument,<br>
@@ -583,8 +583,8 @@ func GetPassage(id int) Passage {
 	Avoid extravagance,<br>
 	Avoid excess.`
 
-	passages[30].title = "Leading the Leader"
-	passages[30].body = `Those who use the Tao to guide leaders<br>
+	passages[30].Title = "Leading the Leader"
+	passages[30].Body = `Those who use the Tao to guide leaders<br>
 	Do not use forceful strategies in the world.<br>
 	Such matters tend to recoil.<br>
 	<br>
@@ -606,8 +606,8 @@ func GetPassage(id int) Passage {
 	This is not the Tao.<br>
 	What is not the Tao will soon end.`
 
-	passages[31].title = "The Use of Force"
-	passages[31].body = `The finest weapons can be the instruments of misfortune,<br>
+	passages[31].Title = "The Use of Force"
+	passages[31].Body = `The finest weapons can be the instruments of misfortune,<br>
 	And thus contrary to Natural Law.<br>
 	Those who possess the Tao turn away from them.<br>
 	Evolved leaders occupy and honor the left;<br>
@@ -623,8 +623,8 @@ func GetPassage(id int) Passage {
 	Those who are content with slaughter<br>
 	Cannot find fulfillment in the world.`
 
-	passages[32].title = "The Limits of Specialization"
-	passages[32].body = `The Tao of the Absolute has no name.<br>
+	passages[32].Title = "The Limits of Specialization"
+	passages[32].Body = `The Tao of the Absolute has no name.<br>
 	Although infinitesimal in its Simplicity,<br>
 	The world cannot master it.<br>
 	<br>
@@ -640,8 +640,8 @@ func GetPassage(id int) Passage {
 	The presence of the Tao in the world<br>
 	Is like the valley streawm joining the rivers and seas.`
 
-	passages[33].title = "Self-Mastery"
-	passages[33].body = `Those who know others are intelligent;<br>
+	passages[33].Title = "Self-Mastery"
+	passages[33].Body = `Those who know others are intelligent;<br>
 	Those who know themselves have insight.<br>
 	Those who master others have force;<br>
 	Those who master themselves have strength.<br>
@@ -651,8 +651,8 @@ func GetPassage(id int) Passage {
 	Those who maintain their position endure.<br>
 	And those who die and yet do not perish, live on.`
 
-	passages[34].title = "The Evolving Tao"
-	passages[34].body = `The Great Tao extends everywhere.<br>
+	passages[34].Title = "The Evolving Tao"
+	passages[34].Body = `The Great Tao extends everywhere.<br>
 	It is on the left and the right.<br>
 	<br>
 	All Things depend on it for growth,<br>
@@ -671,8 +671,8 @@ func GetPassage(id int) Passage {
 	In the end it does not seek greatness,<br>
 	And in that way the Great is achieved.`
 
-	passages[35].title = "Sensing the Insensible"
-	passages[35].body = `Hold fast to the Great Image,<br>
+	passages[35].Title = "Sensing the Insensible"
+	passages[35].Body = `Hold fast to the Great Image,<br>
 	And all the world will come.<br>
 	Yet its coming brings no harm,<br>
 	Only peace and order.<br>
@@ -686,8 +686,8 @@ func GetPassage(id int) Passage {
 	We listen and there is nothing to hear.<br>
 	We use it and it is without end.`
 
-	passages[36].title = "Concealing the Advantage"
-	passages[36].body = `In order to deplete it,<br>
+	passages[36].Title = "Concealing the Advantage"
+	passages[36].Body = `In order to deplete it,<br>
 	It must be thoroughly extended.<br>
 	In order to weaken it,<br>
 	It must be thoroughly strengthened.<br>
@@ -702,8 +702,8 @@ func GetPassage(id int) Passage {
 	Fish should not be taken from deep waters;<br>
 	Nor should organizations make obvious their advantages.`
 
-	passages[37].title = "The Power in Desirelessness"
-	passages[37].body = `The Tao never acts,<br>
+	passages[37].Title = "The Power in Desirelessness"
+	passages[37].Body = `The Tao never acts,<br>
 	And yet is never inactive.<br>
 	<br>
 	If leaders can hold on to it,<br>
@@ -715,8 +715,8 @@ func GetPassage(id int) Passage {
 	<br>
 	The world will then be naturally stabilized.`
 
-	passages[38].title = "Power Without Motive"
-	passages[38].body = `Superior Power is never Powerful, thus it has Power.<br>
+	passages[38].Title = "Power Without Motive"
+	passages[38].Body = `Superior Power is never Powerful, thus it has Power.<br>
 	Inferior Power is always Powerful, thus it has no Power.<br>
 	Superior Power takes no action and acts withotu motive.<br>
 	Inferior Power takes action and acts with motive.<br>
@@ -743,8 +743,8 @@ func GetPassage(id int) Passage {
 	Not occupy its luster.<br>
 	Hence they discard one and receive the other.`
 
-	passages[39].title = "Oneness in Leadership"
-	passages[39].body = `From old, these may have harmony with the One:<br>
+	passages[39].Title = "Oneness in Leadership"
+	passages[39].Body = `From old, these may have harmony with the One:<br>
 	<br>
 	Heaven in harmony with the One becomes clear.<br>
 	Earth in harmony with the One becomes stable.<br>
@@ -772,14 +772,14 @@ func GetPassage(id int) Passage {
 	Therefore, attain honor without being honored.<br>
 	Do not desire to shine like jade; wear ornaments as if they were stone.`
 
-	passages[40].title = "The Way"
-	passages[40].body = `Polarity is the movement of the Tao.<br>
+	passages[40].Title = "The Way"
+	passages[40].Body = `Polarity is the movement of the Tao.<br>
 	Receptivity is the way it is used.<br>
 	The world and All Things were produced from its existence.<br>
 	Its existence was produced from nonexistence.`
 
-	passages[41].title = "Mastering the Paradox"
-	passages[41].body = `When superior leaders hear of the Tao,<br>
+	passages[41].Title = "Mastering the Paradox"
+	passages[41].Body = `When superior leaders hear of the Tao,<br>
 	They diligently try to practice it.<br>
 	When average leaders hear of the Tao,<br>
 	They appear both aware and unaware of it.<br>
@@ -807,8 +807,8 @@ func GetPassage(id int) Passage {
 	The Tao is hidden and nameless,<br>
 	Yet it is the Tao that skillfully supports and completes.`
 
-	passages[42].title = "Knowing Polarity"
-	passages[42].body = `The Tao produced the One.<br>
+	passages[42].Title = "Knowing Polarity"
+	passages[42].Body = `The Tao produced the One.<br>
 	The One produced the Two.<br>
 	The Two produced the Three.<br>
 	The Three produced All Things.<br>
@@ -827,8 +827,8 @@ func GetPassage(id int) Passage {
 	Those who are violent do not die naturally.<br>
 	I will make this my chief teaching.`
 
-	passages[43].title = "Subtle Powers"
-	passages[43].body = `The most yielding parts of the world<br>
+	passages[43].Title = "Subtle Powers"
+	passages[43].Body = `The most yielding parts of the world<br>
 	Overtake the most rigid parts of the world.<br>
 	The insubstantial can penetrate continually.<br>
 	<br>
@@ -838,8 +838,8 @@ func GetPassage(id int) Passage {
 	This advantage wtihout action -<br>
 	It is rare, in the world, to attain them.`
 
-	passages[44].title = "The Power in Needing Less"
-	passages[44].body = `Which is dearer,<br>
+	passages[44].Title = "The Power in Needing Less"
+	passages[44].Body = `Which is dearer,<br>
 	Name or life?<br>
 	Which means more,<br>
 	Life or wealth?<br>
@@ -858,8 +858,8 @@ func GetPassage(id int) Passage {
 	<br>
 	In this way one lasts for a very long time.`
 
-	passages[45].title = "Using Emptiness"
-	passages[45].body = `If the greatest achievement is incomplete,<br>
+	passages[45].Title = "Using Emptiness"
+	passages[45].Body = `If the greatest achievement is incomplete,<br>
 	Then its usefulness is unimpaired.<br>
 	If the greatest fullness is empty,<br>
 	Then its usefulness is inexhaustible.<br>
@@ -872,8 +872,8 @@ func GetPassage(id int) Passage {
 	Stillness triumphs over the heated.<br>
 	Clarity and stillness bring order to the world.`
 
-	passages[46].title = "Knowing Enough"
-	passages[46].body = `When the world possesses the Tao,<br>
+	passages[46].Title = "Knowing Enough"
+	passages[46].Body = `When the world possesses the Tao,<br>
 	Even fast horses are used for their dung.<br>
 	When the world is without the Tao,<br>
 	War-horses are raised in the suburbs.<br>
@@ -886,8 +886,8 @@ func GetPassage(id int) Passage {
 	Therefore know that enough is enough.<br>
 	There will always be enough.`
 
-	passages[47].title = "Cultivating Inner-Knowledge"
-	passages[47].body = `Without going out of doors,<br>
+	passages[47].Title = "Cultivating Inner-Knowledge"
+	passages[47].Body = `Without going out of doors,<br>
 	Know the world.<br>
 	Without looking through the window,<br>
 	See the Tao in Nature.<br>
@@ -899,8 +899,8 @@ func GetPassage(id int) Passage {
 	Recognize without looking,<br>
 	Achieve without acting.`
 
-	passages[48].title = "The Art of Nonaction"
-	passages[48].body = `To pursue the academic, add to it daily.<br>
+	passages[48].Title = "The Art of Nonaction"
+	passages[48].Body = `To pursue the academic, add to it daily.<br>
 	To pursue the Tao, subtract from it daily.<br>
 	Subtract and subtract again,<br>
 	To arrive at nonaction.<br>
@@ -910,8 +910,8 @@ func GetPassage(id int) Passage {
 	The moment there is effort,<br>
 	The world is beyond holding.`
 
-	passages[49].title = "Opening the Mind"
-	passages[49].body = `Evolved Individuals have no fixed mind;<br>
+	passages[49].Title = "Opening the Mind"
+	passages[49].Body = `Evolved Individuals have no fixed mind;<br>
 	They make the mind of the People their mind.<br>
 	<br>
 	To those who are good, I am good;<br>
@@ -927,8 +927,8 @@ func GetPassage(id int) Passage {
 	The People all focus their eyes and ears;<br>
 	Evolved Individuals all act as infants.`
 
-	passages[50].title = "The Art of Survival"
-	passages[50].body = `As life goes out, death comes in.<br>
+	passages[50].Title = "The Art of Survival"
+	passages[50].Body = `As life goes out, death comes in.<br>
 	<br>
 	Life has thirteen paths;<br>
 	Death has thirteen paths.<br>
@@ -952,8 +952,8 @@ func GetPassage(id int) Passage {
 	Why is this so?<br>
 	Because they are without the realm of death.`
 
-	passages[51].title = "The Power of Impartial Support"
-	passages[51].body = `The Tao produces;<br>
+	passages[51].Title = "The Power of Impartial Support"
+	passages[51].Body = `The Tao produces;<br>
 	Its Power supports;<br>
 	Its Natural Law forms;<br>
 	Its influence completes.<br>
@@ -971,8 +971,8 @@ func GetPassage(id int) Passage {
 	Advance without dominating.<br>
 	These are called the Subtle Powers.`
 
-	passages[52].title = "Returning to Insight"
-	passages[52].body = `The beginning of the world<br>
+	passages[52].Title = "Returning to Insight"
+	passages[52].Body = `The beginning of the world<br>
 	May be regarded as the Mother of the world.<br>
 	To apprehend the Mother,<br>
 	Know the offspring.<br>
@@ -996,8 +996,8 @@ func GetPassage(id int) Passage {
 	<br>
 	This is called learning the Absolute.`
 
-	passages[53].title = "The Undivided Path"
-	passages[53].body = `Using only a little knowledge,<br>
+	passages[53].Title = "The Undivided Path"
+	passages[53].Body = `Using only a little knowledge,<br>
 	I would travel the Great Way<br>
 	And fear only of letting go.<br>
 	The Great Way is very even;<br>
@@ -1014,8 +1014,8 @@ func GetPassage(id int) Passage {
 	This is called stealing and exaggeration<br>
 	And certainly not the Way!`
 
-	passages[54].title = "Establishing a Universal View"
-	passages[54].body = `What is skillfully established will not be uprooted;<br>
+	passages[54].Title = "Establishing a Universal View"
+	passages[54].Body = `What is skillfully established will not be uprooted;<br>
 	What is skillfully grasped will not slip away.<br>
 	Thus it is honored for generations.<br>
 	<br>
@@ -1044,8 +1044,8 @@ func GetPassage(id int) Passage {
 	How do I know the world?<br>
 	Through this.`
 
-	passages[55].title = "The Power in Not Contending"
-	passages[55].body = `To possess Power that runs deep<br>
+	passages[55].Title = "The Power in Not Contending"
+	passages[55].Body = `To possess Power that runs deep<br>
 	Is to be like a newborn child.<br>
 	<br>
 	Poisonous insects do not sting it,<br>
@@ -1073,8 +1073,8 @@ func GetPassage(id int) Passage {
 	This is not the Tao.<br>
 	What is not the Tao will soon end.`
 
-	passages[56].title = "Gaining Oneness"
-	passages[56].body = `Those who know do not speak.<br>
+	passages[56].Title = "Gaining Oneness"
+	passages[56].Body = `Those who know do not speak.<br>
 	Those who speak do not know.<br>
 	<br>
 	Block the passages.<br>
@@ -1095,8 +1095,8 @@ func GetPassage(id int) Passage {
 	<br>
 	Hence it is the treasure of the world.`
 
-	passages[57].title = "The Power in Effortlessness"
-	passages[57].body = `Lead the organization with correctness.<br>
+	passages[57].Title = "The Power in Effortlessness"
+	passages[57].Body = `Lead the organization with correctness.<br>
 	Direct the military with surprise tactics.<br>
 	Take hold of the world with effortlessness.<br>
 	<br>
@@ -1123,8 +1123,8 @@ func GetPassage(id int) Passage {
 	Look to nondesire,<br>
 	And people will be naturally simple.`
 
-	passages[58].title = "Cultivating the Center"
-	passages[58].body = `If the administration is subdued,<br>
+	passages[58].Title = "Cultivating the Center"
+	passages[58].Body = `If the administration is subdued,<br>
 	The people are sincere.<br>
 	If the administration is exacting,<br>
 	The people are deficient.<br>
@@ -1145,8 +1145,8 @@ func GetPassage(id int) Passage {
 	Straightforward without straining;<br>
 	Bright without dazzling.`
 
-	passages[59].title = "The Way of Moderation"
-	passages[59].body = `In leading people and serving Nature,<br>
+	passages[59].Title = "The Way of Moderation"
+	passages[59].Body = `In leading people and serving Nature,<br>
 	There is nothing better than moderation.<br>
 	Since, indeed, moderation means yielding early;<br>
 	Yielding early means accumulating Power.<br>
@@ -1163,8 +1163,8 @@ func GetPassage(id int) Passage {
 	This means deep roots and firm foundation:<br>
 	Durability and longevity through observation of the Tao.`
 
-	passages[60].title = "Holding the Position"
-	passages[60].body = `Leading a large organization is like cooking a small fish.<br>
+	passages[60].Title = "Holding the Position"
+	passages[60].Body = `Leading a large organization is like cooking a small fish.<br>
 	<br>
 	If the Tao is present in the world,<br>
 	The cunning are not mysterious.<br>
@@ -1176,8 +1176,8 @@ func GetPassage(id int) Passage {
 	Since together they do no harm,<br>
 	The Power returns and accumulates.`
 
-	passages[61].title = "The Power in Modesty"
-	passages[61].body = `A large organization should flow downward<br>
+	passages[61].Title = "The Power in Modesty"
+	passages[61].Body = `A large organization should flow downward<br>
 	To intersect with the world.<br>
 	It is the female of the world.<br>
 	The female always overcomes the male by stillness;<br>
@@ -1201,8 +1201,8 @@ func GetPassage(id int) Passage {
 	So for both to gain the position they desire,<br>
 	The larger should place itself low.`
 
-	passages[62].title = "The Tao in Leaders"
-	passages[62].body = `The Tao is a refuge for All Things,<br>
+	passages[62].Title = "The Tao in Leaders"
+	passages[62].Body = `The Tao is a refuge for All Things,<br>
 	The treasure of the good,<br>
 	The protector of the not good.<br>
 	<br>
@@ -1224,8 +1224,8 @@ func GetPassage(id int) Passage {
 	Posses faults and they are released?<br>
 	Thus it is the treasure of the world.`
 
-	passages[63].title = "The Path of Least Resistance"
-	passages[63].body = `Act without action; work without effort.<br>
+	passages[63].Title = "The Path of Least Resistance"
+	passages[63].Body = `Act without action; work without effort.<br>
 	Taste without savoring.<br>
 	Magnify the small; increase the few.<br>
 	Repay ill-will with kindness.<br>
@@ -1242,8 +1242,8 @@ func GetPassage(id int) Passage {
 	Therefore Evolved Individuals view all as difficult.<br>
 	Finally they have no difficulty!`
 
-	passages[64].title = "The Power at the Beginning"
-	passages[64].body = `What is at rest is easy to hold;<br>
+	passages[64].Title = "The Power at the Beginning"
+	passages[64].Body = `What is at rest is easy to hold;<br>
 	What is not yet begun is easy to plan.<br>
 	What is thin is easy to melt;<br>
 	What is minute is easy to disperse.<br>
@@ -1272,8 +1272,8 @@ func GetPassage(id int) Passage {
 	In this way they assist All Things naturally<br>
 	Without venturing to act.`
 
-	passages[65].title = "The Danger in Cleverness"
-	passages[65].body = `Those skillful in the ancient Tao<br>
+	passages[65].Title = "The Danger in Cleverness"
+	passages[65].Body = `Those skillful in the ancient Tao<br>
 	Are not obvious to the people.<br>
 	They appear to be simple-minded.<br>
 	<br>
@@ -1293,8 +1293,8 @@ func GetPassage(id int) Passage {
 	Together wtih the Natural Law of polarity,<br>
 	It leads to the Great Harmony.`
 
-	passages[66].title = "The Power in Staying Low"
-	passages[66].body = `The rivers and seas lead the hundred streams<br>
+	passages[66].Title = "The Power in Staying Low"
+	passages[66].Body = `The rivers and seas lead the hundred streams<br>
 	Because they are skillful at staying low.<br>
 	Thus they are able to lead the hundren streams.<br>
 	<br>
@@ -1313,8 +1313,8 @@ func GetPassage(id int) Passage {
 	Because they do not compete,<br>
 	The world cannot compete with them.`
 
-	passages[67].title = "The Power in Compassion"
-	passages[67].body = `All the world thinks that my Tao is great;<br>
+	passages[67].Title = "The Power in Compassion"
+	passages[67].Body = `All the world thinks that my Tao is great;<br>
 	And yet it seems inconceivable.<br>
 	Only its greatness makes it seem inconceivable.<br>
 	If it could be conceived of,<br>
@@ -1340,8 +1340,8 @@ func GetPassage(id int) Passage {
 	Nature aids its leaders<br>
 	By arming them with compassion.`
 
-	passages[68].title = "Nonaggressive Strength"
-	passages[68].body = `A skillful leader does not use force.<br>
+	passages[68].Title = "Nonaggressive Strength"
+	passages[68].Body = `A skillful leader does not use force.<br>
 	A skillful fighter does not feel anger.<br>
 	A skillful master does not engage the opponent.<br>
 	A skillful employer remains low.<br>
@@ -1350,8 +1350,8 @@ func GetPassage(id int) Passage {
 	This is called the strength to employ others.<br>
 	This is called the highest emulation of Nature.`
 
-	passages[69].title = "Neutralizing Escalation"
-	passages[69].body = `The strategists have a saying:<br>
+	passages[69].Title = "Neutralizing Escalation"
+	passages[69].Body = `The strategists have a saying:<br>
 	"I dare not act as a host,<br>
 	Yet I act as a guest,<br>
 	I dare not advance an inch,<br>
@@ -1368,8 +1368,8 @@ func GetPassage(id int) Passage {
 	Thus when mutually opposing strategies escalate,<br>
 	The one who feels sorrow will triumph.`
 
-	passages[70].title = "Knowing the Tao"
-	passages[70].body = `My words are very easy to know,<br>
+	passages[70].Title = "Knowing the Tao"
+	passages[70].Body = `My words are very easy to know,<br>
 	Very easy to follow.<br>
 	Yet the world is unable to know them,<br>
 	Unable to follow them.<br>
@@ -1385,8 +1385,8 @@ func GetPassage(id int) Passage {
 	Wear a coarse cloth covering<br>
 	With precious jade at the center.`
 
-	passages[71].title = "Knowing the Disease"
-	passages[71].body = `To know that you do not know is best.<br>
+	passages[71].Title = "Knowing the Disease"
+	passages[71].Body = `To know that you do not know is best.<br>
 	To not know of knowing is a disease.<br>
 	<br>
 	Indeed, to be sick of the disease,<br>
@@ -1397,8 +1397,8 @@ func GetPassage(id int) Passage {
 	<br>
 	This is the way to be free of disease.`
 
-	passages[72].title = "The Appropriate Perspective "
-	passages[72].body = `If the people do not fear authority,<br>
+	passages[72].Title = "The Appropriate Perspective "
+	passages[72].Body = `If the people do not fear authority,<br>
 	Then authority will expand.<br>
 	Do not disrespect their position;<br>
 	Do not reject their lives.<br>
@@ -1412,8 +1412,8 @@ func GetPassage(id int) Passage {
 	<br>
 	Hence they discard one and receive the other.`
 
-	passages[73].title = "Nature's Way"
-	passages[73].body = `Those bold in daring will die;<br>
+	passages[73].Title = "Nature's Way"
+	passages[73].Body = `Those bold in daring will die;<br>
 	Those bold in not daring will survive.<br>
 	Of these two, either may benefit or harm.<br>
 	<br>
@@ -1434,8 +1434,8 @@ func GetPassage(id int) Passage {
 	Nature's network is vast, so vast,<br>
 	Its mesh is coarse, yet nothing slips through.`
 
-	passages[74].title = "Unnatural Authority"
-	passages[74].body = `When people do not fear death,<br>
+	passages[74].Title = "Unnatural Authority"
+	passages[74].Body = `When people do not fear death,<br>
 	How can they be threatened with death?<br>
 	Suppose people fear death and still do not conform,<br>
 	Who would dare seize them and put them to death?<br>
@@ -1446,8 +1446,8 @@ func GetPassage(id int) Passage {
 	Whoever substitutes for the Master Carpenter in carving,<br>
 	Rarely escapes injury to his hands.`
 
-	passages[75].title = "Self-Destructive Leadership"
-	passages[75].body = `People are hungry.<br>
+	passages[75].Title = "Self-Destructive Leadership"
+	passages[75].Body = `People are hungry.<br>
 	Because those above consume too much in taxes,<br>
 	People are hungry.<br>
 	<br>
@@ -1462,8 +1462,8 @@ func GetPassage(id int) Passage {
 	Indeed, it is those who do not interfere with life<br>
 	Who are capable of respecting life.`
 
-	passages[76].title = "The Power in Flexibility"
-	passages[76].body = `A man living is yielding and receptive.<br>
+	passages[76].Title = "The Power in Flexibility"
+	passages[76].Body = `A man living is yielding and receptive.<br>
 	Dying, he is rigid and inflexible.<br>
 	All Things, the grass and trees:<br>
 	Living, they are yielding and fragile;<br>
@@ -1479,8 +1479,8 @@ func GetPassage(id int) Passage {
 	The position of the highly inflexible will descend;<br>
 	The position of the yielding and receptive will ascend.`
 
-	passages[77].title = "Directing the Power"
-	passages[77].body = `The Tao in Nature<br>
+	passages[77].Title = "Directing the Power"
+	passages[77].Body = `The Tao in Nature<br>
 	Is like a bow that is stretched.<br>
 	The top is pulled down,<br>
 	The bottom is raised up.<br>
@@ -1502,8 +1502,8 @@ func GetPassage(id int) Passage {
 	Succeed without taking credit,<br>
 	And have no desire to display their excellence.`
 
-	passages[78].title = "Accepting the Blame"
-	passages[78].body = `Nothing in the world,<br>
+	passages[78].Title = "Accepting the Blame"
+	passages[78].Body = `Nothing in the world,<br>
 	Is as yielding and receptive as water;<br>
 	Yet in attacking the firm and inflexible,<br>
 	Nothing triumphs so well.<br>
@@ -1523,8 +1523,8 @@ func GetPassage(id int) Passage {
 	<br>
 	Right words appear to reverse themselves.`
 
-	passages[79].title = "The Power In Not Taking Advantage"
-	passages[79].body = `Even when a great resentment is reconciled,<br>
+	passages[79].Title = "The Power In Not Taking Advantage"
+	passages[79].Body = `Even when a great resentment is reconciled,<br>
 	Some resentment must linger,<br>
 	How can this be made good?<br>
 	<br>
@@ -1537,8 +1537,8 @@ func GetPassage(id int) Passage {
 	The Tao in Nature has no favorites.<br>
 	It always works through the good person.`
 
-	passages[80].title = "Fulfilling Independence"
-	passages[80].body = `In a small organization with a few people;<br>
+	passages[80].Title = "Fulfilling Independence"
+	passages[80].Body = `In a small organization with a few people;<br>
 	<br>
 	Let there be ten or a hundred times<br>
 	More tools than they can use.<br>
@@ -1560,8 +1560,8 @@ func GetPassage(id int) Passage {
 	Yet the people may grow old and die<br>
 	Without coming or going between them.`
 
-	passages[81].title = "The Evolved Way"
-	passages[81].body = `Sincere words are not embellished;<br>
+	passages[81].Title = "The Evolved Way"
+	passages[81].Body = `Sincere words are not embellished;<br>
 	Embellished words are not sincere.<br>
 	Those who are good are not defensive;<br>
 	Those who are defensive are not good.<br>

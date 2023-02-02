@@ -79,11 +79,11 @@ func TestGetPassage(t *testing.T) {
 	}
 	for _, c := range cases {
 		got := GetPassage(c.in)
-		if got.title != c.title {
-			t.Errorf("GenerateTetragram(%d) == %q, want title: %q", c.in, got.title, c.title)
+		if got.Title != c.title {
+			t.Errorf("GenerateTetragram(%d) == %q, want title: %q", c.in, got.Title, c.title)
 		}
-		if got.body != c.body {
-			t.Errorf("GenerateTetragram(%d)\n GOT:%q\nWANT:%q", c.in, got.body, c.body)
+		if got.Body != c.body {
+			t.Errorf("GenerateTetragram(%d)\n GOT:%q\nWANT:%q", c.in, got.Body, c.body)
 		}
 	}
 }
